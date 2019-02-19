@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>YEOMAN</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<div id="fb-root"></div>
+
+
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=1890384837907964";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    $(document).ready(function() {
+        $("#heythere").addClass("animated bounce");
+    });
+
+</script>
+
+<style>
+    .margino {
+        margin: 50px 30px 40px 30px;
+    }
+    
+    h1 {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .thicky {
+        border-color: green;
+        border-width: 20px;
+        border-style: dotted;
+        border-radius: 25%;
+    }
+    
+    .profilio {
+        border-color: green;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 50%;
+    }
+    
+    .smaller-image {
+        width: 50px;
+    }
+    
+    .profilepaddy {
+        margin-top: -50px;
+        margin-left: 10px;
+    }
+    
+    .nomegustayeomargino {
+        margin-top: -30px;
+    }
+
+</style>
+
+
+<div class="margino jumbotron jumbotron-fluid">
+    <div class="container-fluid">
+        <div class="row">
+            <div class=profilepaddy>
+                <h5>Made by</h5>
+
+                <a href="#"><img class="smaller-image profilio" src="https://dantuluri.github.io/profile.png" alt="Hey look it's me!"></a>
+            </div>
+            <p class="red-text">
+                <div class="nomegustayeomargino col-xs-12">
+                    <h1 class="text-center">The Yeoman</h3>
+                        <h2 class="text-center"><em>"The sickle is mightier than the sword"</em></h2>
+                        <div class=thumbnail>
+                            <a href="https://uk.linkedin.com/in/neil-yeomans-b739306"><img class="thicky img-responsive" src="https://dantuluri.github.io/yeomain.jpg" alt="A cute orange cat lying on its back. ">
+                            </a>
+                            <div class="img-responsive  caption text-center">Neil P. Letty, the depiction of the Yeoman in the movie "The Yeoman Rises" </div>
+                        </div>
+                        <!--end of that white well-->
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h2>How it started</h4>
+                                    <div class="well" id="left-well">
+                                        <h5>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit tempus libero non gravida. Donec consectetur metus urna, ac semper velit placerat nec. Aliquam erat volutpat. Ut sed mi at nisl finibus dictum non non urna. Ut rutrum hendrerit nulla a luctus. Nunc congue, urna eu consequat mattis, sapien ligula vestibulum ligula, at tincidunt nibh ligula sed mauris. Morbi aliquet tempus lacus, lacinia faucibus dolor congue eu. Praesent et consectetur eros, sit amet semper ipsum. Proin lectus sapien, dignissim sit amet pharetra vel, sagittis ac turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed auctor mollis nisi a bibendum. Morbi quis laoreet velit. .
+
+                                        </h5>
+                                        <button class="btn btn-primary btn-default target" id="target1">Like</button>
+                                        <button class="btn btn-danger btn-default target" id="target2">Dislike</button>
+                                        <button class="btn btn-info btn-default target" id="target3">Info</button>
+                                    </div>
+                            </div>
+                            <h3>What people are saying about Yeoman</h3>
+                            <div class="col-sm-6">
+                                <div class="well" id="left-well">
+
+                                    <div id="" style="overflow-y: scroll; height:200px;">
+                                        <div class="fb-post" data-href="https://www.facebook.com/surya441/posts/282821782169679" data-width="500" data-show-text="true">
+                                            <blockquote cite="https://www.facebook.com/surya441/posts/282821782169679" class="fb-xfbml-parse-ignore">
+                                                <p>It&#039;s all a conspiracy to take over the corrupt government https://www.youtube.com/watch?v=lyleO_sVQR4 https://www.kickstarter.com/projects/1233191773/codingfarmers YEOMAN WILL RISE (thanks to Nikhil Cheerla)</p>Posted by <a href="#" role="button">Surya Dantuluri</a> on&nbsp;<a href="https://www.facebook.com/surya441/posts/282821782169679">Wednesday, April 26, 2017</a></blockquote>
+                                        </div>
+                                        <button class="btn btn-primary btn-default target" id="target1">Like</button>
+                                        <button class="btn btn-danger btn-default target" id="target2">Dislike</button>
+                                        <button class="btn btn-info btn-default target" id="target3">Info</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3>Instructions to become a Yeoman</h3>
+                            <div class="col-sm-6">
+                                <div class="well" id="left-well">
+                                    <p>Contemnit enim disserendi elegantiam, confuse loquitur. Sint ista Graecorum; Itaque et manendi in vita et migrandi ratio omnis iis rebus, quas supra dixi, metienda. Quasi ego id curem, quid ille aiat aut neget. Transfer idem ad modestiam vel temperantiam, quae est moderatio cupiditatum rationi oboediens. Hic ambiguo ludimur.</p>
+                                    <button class="btn btn-primary btn-default target" id="target1">Like</button>
+                                    <button class="btn btn-danger btn-default target" id="target2">Dislike</button>
+                                    <button class="btn btn-info btn-default target" id="target3">Info</button>
+
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+
+</html>

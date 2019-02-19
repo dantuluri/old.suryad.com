@@ -1,0 +1,136 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.roboto-font{
+  font-family: 'Roboto', sans-serif;
+}
+.front-image{
+  background-image: url("https://i.imgur.com/Fm5JxuK.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: -1300px -250px; 
+  
+}
+
+.ros{
+  background-image: url("https://i.imgur.com/1LalcMw.png");
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:10% 70%;
+  
+}
+
+.ml{
+  background-image: url("https://i.imgur.com/gytrbfM.png");
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:90% 70%;
+}
+
+.rpi3{
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/91zSu44%2B34L._SX466_.jpg");
+}
+
+.r3{
+  background-image: url("https://cf5.s3.souqcdn.com/item/2013/10/11/61/86/78/0/item_XL_6186780_3246529.jpg");
+  background-size: 400px 300px;
+}
+.cluster{
+  background-image: url("http://www.ideaboxcomputers.com.au/wp-content/uploads/2017/01/ZUESX1-1-2-570x708.jpg");
+}
+
+.printe{
+  background-image: url("https://i.imgur.com/XoIlTJK.jpg");
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  background-position: 60% 30%;
+}
+
+.room{
+  background-image: url("https://i.imgur.com/NIDwxmf.jpg");
+  background-size: 500px 300px;
+}
+
+.nono{
+  background-image: url("https://i.imgur.com/OCMrFdI.png");
+  background-repeat: no-repeat;
+  background-size: 400px 300px;
+  background-position: 60% 30%;
+}
+
+.rich{
+  color: #8E24AA;
+}
+
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
